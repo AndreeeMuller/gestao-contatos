@@ -156,9 +156,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Consulta Endereço`,
-        short_name: `Consulta Endereço`,
-        description: `Permite a consulta de um determinado endereço, informando o CEP, logradouro, entre outros campos...`,
+        name: `Gestão de Contatos`,
+        short_name: `Gestão de Contatos`,
+        description: `Objetivo principal do projeto é a consulta com a API do ViaCEP, onde deve-se utilizar a consulta tanto com o CEP quanto com o logradouro.`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
