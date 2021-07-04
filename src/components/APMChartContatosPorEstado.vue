@@ -44,6 +44,9 @@ export default {
           labels: {
             colors: this.$q.dark.isActive ? "#FFF" : "#000"
           }
+        },
+        theme: {
+          palette: "palette3"
         }
       }
     };
