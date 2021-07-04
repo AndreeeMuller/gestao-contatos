@@ -29,6 +29,34 @@
         <q-toolbar-title>
           Gestão de Contatos
         </q-toolbar-title>
+        <q-btn
+          flat
+          @click="$q.dark.toggle"
+          :icon="$q.dark.isActive ? 'nights_stay' : 'wb_sunny'"
+        >
+          <q-tooltip
+            anchor="center left"
+            self="center end"
+            transition-show="rotate"
+            transition-hide="rotate"
+          >
+            Modo noturno ou diurno
+          </q-tooltip>
+        </q-btn>
+        <q-btn
+          flat
+          @click="$q.fullscreen.toggle()"
+          :icon="$q.fullscreen.isActive ? 'fullscreen_exit' : 'fullscreen'"
+        >
+          <q-tooltip
+            anchor="center left"
+            self="center end"
+            transition-show="rotate"
+            transition-hide="rotate"
+          >
+            Modo tela cheia ou não
+          </q-tooltip>
+        </q-btn>
       </q-toolbar>
     </q-header>
 

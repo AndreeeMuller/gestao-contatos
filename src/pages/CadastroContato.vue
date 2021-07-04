@@ -15,7 +15,7 @@
         binary-state-sort
         selection="single"
         @row-click="(event, row, index) => (selected = [row])"
-        class="apm-table apm-table__GG"
+        class="apm-table apm-table__G"
       >
         <template v-slot:loading>
           <APMTableLoading />
@@ -132,6 +132,7 @@
           <div class="row">
             <div class="col-12 col-md-8">
               <q-input
+                autofocus
                 filled
                 name="nome"
                 type="nome"
